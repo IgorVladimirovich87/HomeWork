@@ -47,3 +47,36 @@ if (n3 > MaxNum)
 
 Console.WriteLine ($"Максимальное число {MaxNum}");
 */
+
+/*
+//Задача 6. Напишите задачу которая на вход принимает число и выдает, является ли число четным (делится ли оно на 2 без остатка).
+
+Console.WriteLine ("Введите число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+if (n % 2 == 0)
+{
+    Console.WriteLine($"Число {n} четное" );
+}
+
+else 
+{
+    Console.WriteLine($"Число {n} нечетное");
+}
+*/
+
+//Задача 8. Напишите программу, которая на вход принимает число (n), а на выходе показывает все четные числа от 1 до n.
+/*
+Console.WriteLine ("Введите число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+if (n > 0)
+{
+    int current = 2;
+    while (current <= n)
+        {
+            Console.Write(current + " " );
+            current +=2;
+        }
+}
+*/
