@@ -42,3 +42,30 @@ int TwoDigit = TwoDigitNumber(number);
 Console.WriteLine($" чило из первой и последней цифры от {number} это {TwoDigit}");
 */
 
+// Написать программу, которая принимает на вход число и проверяет, кратно ли оно одновременно a и b.
+
+bool MultiplenNumber(int number, int a, int b)
+{
+    bool result;
+
+    if (number % a ==0 && number % b == 0 )
+    {
+        result = true;   
+    }
+    else
+    {
+        result=false;
+    }
+    return result;
+}
+
+Console.Write("Input a number ");
+int number = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter the first divisor ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter the second divisor ");
+int b = Convert.ToInt32(Console.ReadLine());
+
+bool res = MultiplenNumber(number, a, b);
+Console.WriteLine(res);
+
