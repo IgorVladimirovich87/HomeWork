@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\Seminar1\\HomeWork\\HomeWork2\\HomeWork2.csproj": {}
+    "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\seminar1\\homework\\homework2\\HomeWork2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\Seminar1\\HomeWork\\HomeWork2\\HomeWork2.csproj": {
+    "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\seminar1\\homework\\homework2\\HomeWork2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\Seminar1\\HomeWork\\HomeWork2\\HomeWork2.csproj",
+        "projectUniqueName": "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\seminar1\\homework\\homework2\\HomeWork2.csproj",
         "projectName": "HomeWork2",
-        "projectPath": "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\Seminar1\\HomeWork\\HomeWork2\\HomeWork2.csproj",
+        "projectPath": "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\seminar1\\homework\\homework2\\HomeWork2.csproj",
         "packagesPath": "C:\\Users\\Chert\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\Seminar1\\HomeWork\\HomeWork2\\obj\\",
+        "outputPath": "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\seminar1\\homework\\homework2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Chert\\AppData\\Roaming\\NuGet\\NuGet.Config"
