@@ -16,7 +16,7 @@ Console.WriteLine($"Второе число из {number} это {secondDigit}" 
 */
 
 // Задача 15. Программа, которая принимает на вход цифру, обозначающую день недели и проверяет, является ли этот день выходным.
-
+/*
 bool HolidayDays(int day)
 {
     bool result;
@@ -34,4 +34,5 @@ bool isHoliday = HolidayDays(dayNumber);
         Console.WriteLine($"Да {dayNumber} день выходной ");
     else
         Console.WriteLine($"Нет {dayNumber} день не выходной");
+*/
 
