@@ -36,3 +36,23 @@ bool isHoliday = HolidayDays(dayNumber);
         Console.WriteLine($"Нет {dayNumber} день не выходной");
 */
 
+
+
+string ThirdDigit (int num)
+{
+    string result;
+    string numString = Convert.ToString(num);
+    if (numString.Length < 3)
+        result = "Нет 3 числа.";
+    else
+    {
+        char third = numString[2];
+        result = $"Третье число {num} это {third}.";
+    }
+    
+    return result;
+}
+Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+string thirdDigit = ThirdDigit(number);
+Console.WriteLine(thirdDigit);
