@@ -36,8 +36,8 @@ bool isHoliday = HolidayDays(dayNumber);
         Console.WriteLine($"Нет {dayNumber} день не выходной");
 */
 
-
-
+// Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+/*
 string ThirdDigit (int num)
 {
     string result;
@@ -56,3 +56,4 @@ Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 string thirdDigit = ThirdDigit(number);
 Console.WriteLine(thirdDigit);
+*/
