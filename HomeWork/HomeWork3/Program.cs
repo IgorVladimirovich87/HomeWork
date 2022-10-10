@@ -22,3 +22,24 @@ Console.WriteLine($"Точка B будет иметь координаты ({bx
 Console.WriteLine($"Расстояние между точкой A({ax}, {ay}, {az}) и точкой B({bx}, {by}, {bz}) равно {Math.Round(FindDistance(ax, ay, az, bx, by, bz), 2)}.");
 */
 
+//Задача 23. Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+
+/*
+void QuartsNumbers(int n)
+{
+    {
+    int count = 1;
+    while (count <= n)
+    {
+        Console.Write($"{Math.Pow(count, 3)}");
+        if (count < n) Console.Write(", ");
+        count++;
+    }
+}
+}
+
+Console.Write("Введите число N: ");
+int n = Convert.ToInt32(Console.ReadLine());
+QuartsNumbers(n);
+*/
+
