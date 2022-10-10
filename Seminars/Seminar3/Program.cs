@@ -47,7 +47,7 @@ FindRange(quart);
 */
 
 // Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
-
+/*
 double Distance(double xa, double ya, double xb, double yb)
 {
     return Math.Sqrt(Math.Pow((xb-xa),2) + Math.Pow((yb-ya),2));  
@@ -63,3 +63,5 @@ Console.Write("Input yb: ");
 Double yb = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine(Distance(xa, xb, ya, yb));
+*/
+
