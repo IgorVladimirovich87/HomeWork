@@ -43,3 +43,29 @@ int n = Convert.ToInt32(Console.ReadLine());
 QuartsNumbers(n);
 */
 
+//Задача 19. Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
+/*
+void Palidorm (int num)
+{
+    
+    {
+        int firstDigit = num / 10000;
+        int lastDigit = num % 10;
+        if (firstDigit == lastDigit)
+        {
+            int newNum = num % 10000 / 10;
+            firstDigit = newNum / 100;
+            lastDigit = newNum % 10;
+            if (firstDigit == lastDigit)
+                Console.WriteLine($"Число {num} палиндорм.");
+        }
+        else
+            Console.WriteLine($"Число {num} не является палиндромом.");
+
+    }
+}
+
+Console.Write("Введите 5 знасное число, которое будем проверять на палиндром: ");
+int number = Convert.ToInt32(Console.ReadLine());
+Palidorm(number);
+*/
