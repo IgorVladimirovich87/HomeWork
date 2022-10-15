@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\Seminar1\\seminars\\Seminar4\\Seminar4.csproj": {}
+    "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\Seminar1\\Seminars\\Seminar4\\Seminar4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\Seminar1\\seminars\\Seminar4\\Seminar4.csproj": {
+    "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\Seminar1\\Seminars\\Seminar4\\Seminar4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\Seminar1\\seminars\\Seminar4\\Seminar4.csproj",
+        "projectUniqueName": "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\Seminar1\\Seminars\\Seminar4\\Seminar4.csproj",
         "projectName": "Seminar4",
-        "projectPath": "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\Seminar1\\seminars\\Seminar4\\Seminar4.csproj",
+        "projectPath": "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\Seminar1\\Seminars\\Seminar4\\Seminar4.csproj",
         "packagesPath": "C:\\Users\\Chert\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\Seminar1\\seminars\\Seminar4\\obj\\",
+        "outputPath": "C:\\Users\\Chert\\OneDrive\\Рабочий стол\\Учеба\\Программирование\\Seminar1\\Seminars\\Seminar4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Chert\\AppData\\Roaming\\NuGet\\NuGet.Config"
