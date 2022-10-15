@@ -17,4 +17,21 @@ Console.WriteLine($"{numA}^{numB} = {APowB(numA, numB)}");
 */
 
 //Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+/*
+int SumOfDigits(int num)
+{
+    int res = 0;
+    if (num < 0) num *= -1; // если число отрицательное, то умножаем на -1, чтобы сделать его положительным.
+
+    while (num > 0)
+    {
+        res += num % 10;
+        num /= 10;
+    }
+    return res;
+}
+Console.Write("Введите число >: ");
+int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"Сумма цифр числа {number} равна {SumOfDigits(number)}.");
+*/
 
