@@ -1,12 +1,12 @@
 ﻿//Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет количество чётных чисел в массиве.
 
 /*
-int[] CreateArray(int size, int minValue, int maxValue)
+int[] CreateArray(int size)
 {
     int[] array = new int[size];
-        for(int i = 0; i < size; i++)
+    for(int i = 0; i < array.Length; i++)
     {
-        array[i] = new Random().Next(minValue, maxValue+1);
+       array[i] = new Random().Next(100,999);
     }
     return array;
 }
@@ -19,26 +19,22 @@ int[] CreateArray(int size, int minValue, int maxValue)
     }
     Console.WriteLine("}.");
  }
-int AmountEvenNumbers(int[] array)
+int EvenNumbers(int[] array)
 {
-    int amount = 0;
+    int count = 0;
     for(int i = 0; i < array.Length; i++)
     {
         if(array[i] % 2 == 0) 
-            amount++;
+            count++;
     }
-    return amount;
+    return count;
 }
 
 Console.Write("Введите количество элементов массива: ");
 int size = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите минимальное 3-х значное число: ");
-int minValue = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите максимальное 3-х значное число: ");
-int maxValue = Convert.ToInt32(Console.ReadLine());
-int[] yourArray = CreateArray(size, minValue,maxValue);
+int[] yourArray = CreateArray(size);
 PrintArray(yourArray);
-int result = AmountEvenNumbers(yourArray);
+int result = EvenNumbers(yourArray);
 Console.WriteLine($"количество чётных чисел в массиве = {result}.");
 */
 
