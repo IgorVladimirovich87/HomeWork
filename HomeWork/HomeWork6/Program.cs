@@ -43,22 +43,23 @@ Console.WriteLine($"две прямые пересекутся в точке с 
 double[] IntersectionLines(double b1, double k1, double b2, double k2)
 {
     double[] array = new double[2];
+    
     array[0] = (b2-b1)/(k1-k2);
     array[1] = k1 * array[0] + b1;
     return array;
 }
 void PrintIntersection(double[] array)
 {
-    Console.Write($"Точка пересечения = [{array[0]}; {array[1]}].");
+    Console.Write($"две прямые пересекутся в точке с координатами x = {array[0]}; y = {array[1]}.");
 }
 
-Console.Write("Введите b1: ");
+Console.Write("введите значение b1: ");
 double b1 = Convert.ToDouble(Console.ReadLine());
-Console.Write("Введите k1: ");
+Console.Write("введите значение k1: ");
 double k1 = Convert.ToDouble(Console.ReadLine());
-Console.Write("Введите b2: ");
+Console.Write("введите значение b2: ");
 double b2 = Convert.ToDouble(Console.ReadLine());
-Console.Write("Введите k2: ");
+Console.Write("введите значение k2: ");
 double k2 = Convert.ToDouble(Console.ReadLine());
 if(k1 == k2) Console.WriteLine("Прямые параллельны, точки пересечения нет.");
 else
