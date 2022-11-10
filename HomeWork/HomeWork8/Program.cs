@@ -168,7 +168,7 @@ void MultiplyMatrix(int[,] firstMartrix, int[,] secomdMartrix, int[,] resultMatr
     for (int j = 0; j < resultMatrix.GetLength(1); j++)
     {
       int sum = 0;
-      for (int k = 0; k < firstMartrix.GetLength(1); k++)
+      for (int k = 0; k < firstMartrix.GetLength(0); k++)
       {
         sum += firstMartrix[i,k] * secomdMartrix[k,j];
       }
@@ -191,7 +191,7 @@ void CreateArray(int[,] array)
 void WriteArray (int[,] array)
 
 {
-  for (int i = 0; i < array.GetLength(1); i++)
+  for (int i = 0; i < array.GetLength(0); i++)
   {
     for (int j = 0; j < array.GetLength(1); j++)
     {
@@ -254,7 +254,7 @@ void Print3DArray(int[,,] array)
     Console.WriteLine("\nЭлементы с индексами (i,j,k) в трехмерном массиве: ");
     for (int i = 0; i < array.GetLength(0); i++)
     {
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int j = 0; j < array.GetLength(0); j++)
         {
             for (int k = 0; k < array.GetLength(2); k++)
             {
